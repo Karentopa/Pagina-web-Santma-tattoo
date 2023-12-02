@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+.header-container{
+    width: 100%;
+    height: auto;
+    background-color:black;
+    display: flex; 
+    flex-direction: row;
+    padding: 1%; 
+    color: aliceblue; 
+    align-items: center; 
+}
+.nav-container{
+    display: flex;
+    width: 15%;
+    height: 20%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container-one ul{
+    list-style: none;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container-one select, a{
+    margin-left: 60px;
+   }
+
+   .img-container{
+    width: 15%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+   }
+
+   h1 {
+    font-size: 50px;
+    padding: 8%;
+   }
+
+   p {
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 30%;
+    text-align: left;
+   }
+   
+   .section-one{
+    background-color: black;
+    margin-top: 12%;
+   }
+   .galeria-container-tittle{
+    font-size: 40px;
+    margin-left: 7%;
+    padding: 12%;
+    color: aliceblue;
+    padding-top: 4%;
+    margin-bottom: 1%;
+    padding-bottom: 4%;
+   }
+
+   .imagenes-section-one{
+    width: 100%;
+    height: auto;
+    display: flex; 
+    flex-direction: row;
+    padding: 1%; 
+    align-items: center;
+   }
+
+   .Img-one{
+    width: 20%;
+    margin-left: 3%;
+    margin-right: 3%;    
+   }
+
+   .Img-two{
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 3%;
+   }
+
+   .Img-three{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 3%;
+   }
+   .video{
+    width: 15%;
+    margin-left: 5%;
+    margin-right: 3%;   
+   }
+   .contacto-section{
+    margin-top: 10%;    
+    }
+
+   .contacto-tittle{
+    font-size: 40px;
+    margin-left: 7%;
+    padding: 12%;
+    padding-top: 4%;
+    margin-bottom: 1%;
+    padding-bottom: 4%;
+    }
+
+    @media(min-width: 480px){
+        .nav-container{
+            font-size: 14px;
+        }
+        .nav-container ul{
+            padding: 5px 0;
+        }
+    }
+
+    @media(min-width: 768px){
+        .nav-container{
+            font-size: 16px;
+        }
+        .nav-container ul{
+            padding: 10px;
+        }
+
+    }
+
+
+    @media(min-width: 1024px){
+        .nav-container ul {
+            margin-top: 30px;
+            padding: 15px 0;
+        }    
+        .nav-container ul li {
+            margin-bottom: 20px;
+        }    
+    }
+
+
+
+
+
